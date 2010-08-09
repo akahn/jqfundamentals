@@ -139,7 +139,7 @@ task :install do
     sh "#{curl} docbook-xsl.zip http://sourceforge.net/projects/docbook/files/docbook-xsl/1.75.2/docbook-xsl-1.75.2.zip/download"
     sh "unzip docbook-xsl.zip -d docbook-xsl"
 
-    # XSL Syntax Highlight
+    # XSLT Syntax Highlight
     puts "Downloading and extracting XSLT Syntax Highlighting"
     sh "#{curl} xslthl.zip http://sourceforge.net/projects/xslthl/files/xslthl/2.0.2/xslthl-2.0.2.zip/download"
     sh "unzip xslthl.zip -d xslthl"
